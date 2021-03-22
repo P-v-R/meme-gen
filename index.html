@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset = "utf8">
+        <title> Meme Generator </title>
+        <link rel="stylesheet" href="meme-gen-style.css">
+    </head>
+    <body class = "fadeIn">
+
+            <p>
+                <h1>MEME MAKER 9000</h1>
+            </p>
+            <p>
+                <textarea class = "textarea" id="top-text" placeholder="TOP TEXT"></textarea>
+            </p>
+            <p>
+                <textarea class = "textarea" id="bottom-text" placeholder="BOTTOM TEXT"></textarea>
+            
+                <h3>insert photo</h3>
+                <input type = "file" class = "fileBox" id = "image-input" accept="image/*">
+            </p>
+            <p>
+                <button class = "btn" id = "generate-btn"> MEME-IFY </button>
+            </p>
+            <p>
+                <canvas  id = "meme-canvas"></canvas>
+            </p>
+
+        <script src = "meme-gen-code.js"></script>
+    </body>
+</html>
